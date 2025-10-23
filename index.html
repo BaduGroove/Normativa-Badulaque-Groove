@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badulaque Groove - Normativa Interna</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+        .hover-bg:hover {
+            background-color: rgba(51, 65, 85, 0.8);
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #fa6060, #8c84fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
+    <div class="max-w-6xl mx-auto p-4 md:p-8">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <div class="flex items-center justify-center gap-3 mb-4">
+                <svg class="text-blue-400" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+                <h1 class="text-4xl md:text-5xl font-bold gradient-text">
+                    Badulaque Groove
+                </h1>
+            </div>
+            <h2 class="text-2xl md:text-3xl font-semibold mb-3 text-slate-300">
+                Normativa Interna del Badulaque
+            </h2>
+            <p class="text-slate-400 text-lg mb-2">
+                Lee, comprende y cumple TODAS las normas del badulaque
+            </p>
+            <div class="bg-red-900 border border-red-600 rounded-lg p-4 mt-4 max-w-2xl mx-auto">
+                <div class="flex items-center gap-2 mb-2">
+                    <svg class="text-red-400" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path>
+                        <line x1="12" y1="9" x2="12" y2="13"></line>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                    <p class="font-bold text-red-300">NORMATIVA DE CUMPLIMIENTO OBLIGATORIO</p>
+                </div>
+                <p class="text-red-200 text-sm">
+                    Desconocer esta normativa <strong>no exime de responsabilidad.</strong> Antes de postularte o participar en el badulaque, asegurate de <strong>leer y comprender todas las reglas.</strong>
+                </p>
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="mb-8 relative">
+            <svg class="absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Buscar en la normativa..."
+                class="w-full bg-slate-800 border border-slate-700 rounded-lg pl-12 pr-4 py-3 text-white placeholder-slate-400 focus:outline-none focus:border-blue-500 transition-colors"
+            />
+        </div>
+
+        <!-- Quick Stats -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            <div class="bg-gradient-to-br from-red-900 to-red-800 border border-red-600 rounded-lg p-4">
+                <div class="flex items-center gap-3">
+                    <svg class="text-red-300" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <div>
+                        <p class="text-red-200 text-sm font-semibold">HORAS MÍNIMAS</p>
+                        <p class="text-2xl font-bold text-white">6h semanales</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gradient-to-br from-orange-900 to-orange-800 border border-orange-600 rounded-lg p-4">
+                <div class="flex items-center gap-3">
+                    <svg class="text-orange-300" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <div>
+                        <p class="text-orange-200 text-sm font-semibold">MÍNIMO POR SERVICIO</p>
+                        <p class="text-2xl font-bold text-white">30 minutos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gradient-to-br from-blue-900 to-blue-800 border border-blue-600 rounded-lg p-4">
+                <div class="flex items-center gap-3">
+                    <svg class="text-blue-300" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="2"></circle>
+                        <path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"></path>
+                    </svg>
+                    <div>
+                        <p class="text-blue-200 text-sm font-semibold">INTERVALO /NEWS</p>
+                        <p class="text-2xl font-bold text-white">20 minutos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sections Container -->
+        <div id="sectionsContainer" class="space-y-4"></div>
+
+        <!-- No Results Message -->
+        <div id="noResults" class="hidden text-center py-12 bg-slate-800 rounded-lg border border-slate-700">
+            <svg class="mx-auto mb-4 text-slate-600" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line>
+            </svg>
+            <p class="text-slate-400 text-lg" id="noResultsText">
+                No se encontraron resultados
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-8 bg-slate-800 border border-slate-700 rounded-lg p-6">
+            <div class="text-center space-y-3">
+                <p class="text-slate-300 font-semibold text-lg">📋 Recordatorio Final</p>
+                <p class="text-slate-400">
+                    Esta normativa es de cumplimiento OBLIGATORIO para todos los empleados de Badulaque Groove.
+                </p>
+                <p class="text-red-400 font-semibold">
+                    Las sanciones por incumplimiento son progresivas y pueden llegar hasta el despido.
+                </p>
+                <p class="text-slate-500 text-sm mt-4">
+                    Última actualización: Octubre 2025
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Data structure
+        const sections = [
+            {
+                id: 'fichaje',
+                title: 'Fichaje y Presencia',
+                icon: 'clock',
+                color: 'bg-blue-500',
+                items: [
+                    {
+                        title: 'Uniforme Obligatorio',
+                        description: 'El uso del uniforme de badulaque es obligatorio durante todo el servicio.',
+                        importance: 'high',
+                        warning: 'Sin uniforme no estás representando al badulaque profesionalmente'
+                    },
+                    {
+                        title: 'Fichaje de Jornada',
+                        description: 'El fichaje debe abrirse al iniciar la jornada y cerrarse al finalizarla. No puedes fichar y dejar el personaje abandonado.',
+                        importance: 'critical',
+                        warning: 'Si no se cierra el fichaje en varias ocasiones o se realiza un fichaje falso, puede ser motivo de despido inmediato.'
+                    },
+                    {
+                        title: 'Tiempo Mínimo de Servicio',
+                        description: 'El tiempo mínimo de servicio es de 30 minutos por jornada. En caso de abrir el fichaje y, por cualquier motivo, permanecer menos de 30 minutos, deberás eliminar ambos fichajes si fuiste el responsable de la apertura.',
+                        importance: 'high',
+                        warning: 'Los servicios de menos de 30 minutos no cuentan para tus horas semanales y deben eliminarse del registro por el responsable del fichaje.'
+                    },
+                    {
+                        title: 'Horas Semanales Obligatorias',
+                        description: 'Se requiere cumplir un mínimo de 6 horas semanales de servicio activo, distribuidas de forma regular. El badulaque debe abrir al menos 4 días por semana, con un total mínimo de 12 horas de funcionamiento.',
+                        importance: 'critical',
+                        warning: 'El incumplimiento de las horas semanales o la falta de actividad continua puede derivar en una advertencia o despido. Mantener una participación constante es tu responsabilidad.'
+                    },
+                    {
+                        title: 'Prohibición Total de AFK',
+                        description: 'Está PROHIBIDO fichar mientras estás AFK por más de 10 minutos. Si necesitas ausentarte, cierra tu fichaje.',
+                        importance: 'critical',
+                        warning: 'Estar fichado y ausente (AFK) se considera una falta laboral grave y conlleva una sanción severa.'
+                    }
+                ]
+            },
+            {
+                id: 'anuncios',
+                title: 'Anuncios y Comunicación',
+                icon: 'radio',
+                color: 'bg-green-500',
+                items: [
+                    {
+                        title: 'Sistema de Anuncios /news',
+                        description: 'Los anuncios deben realizarse ÚNICAMENTE mediante /news, respetando un intervalo MÍNIMO de 20 minutos entre cada anuncio del badulaque.',
+                        importance: 'high',
+                        warning: 'Hacer spam de anuncios puede resultar en prohibición de anunciar y warn al badulaque'
+                    },
+                    {
+                        title: 'Respeto a Otros Negocios',
+                        description: 'Debes respetar los /news de otros locales o talleres. Si otro negocio ha realizado un anuncio y por horario te corresponde emitir el tuyo, espera a que el /news anterior desaparezca de la nube antes de publicar el tuyo.',
+                        importance: 'medium',
+                        warning: 'Si después de 5 minutos el anuncio sigue activo, deberás enviar un /msg (ID) al responsable del otro negocio para solicitar permiso antes de emitir tu /news.'
+                    },
+                    {
+                        title: 'Protocolo de Respuestas',
+                        description: 'Si preguntan por /twt o /anon "locales abierto?" se responde por /twt. Si preguntan por /ayuda NO SE RESPONDE (es canal OOC administrativo).',
+                        importance: 'medium',
+                        warning: 'Responder por /ayuda rompe la inmersión y es uso incorrecto del canal'
+                    }
+                ]
+            },
+            {
+                id: 'ausencias',
+                title: 'Sistema de Ausencias',
+                icon: 'bell',
+                color: 'bg-yellow-500',
+                items: [
+                    {
+                        title: 'Ausencia Total',
+                        description: 'Ausencia total es un periodo de inactividad de hasta 2 semanas. Debes avisar en el canal de ausencias para que jefatura lo apruebe. Casos excepcionales pueden extenderse con aprobación.',
+                        importance: 'high',
+                        warning: 'Desaparecer sin avisar puede resultar en despido automático'
+                    },
+                    {
+                        title: 'Ausencia Parcial',
+                        description: 'Ausencia parcial es un periodo de inactividad de hasta 3 días. Debes informar en el canal de ausencias del Discord del badulaque.',
+                        importance: 'medium',
+                        warning: 'Ausencias parciales sin avisar acumulan como faltas'
+                    },
+                    {
+                        title: 'Consecuencias del Incumplimiento',
+                        description: 'El incumplimiento de las horas de servicio sin previo aviso derivará en warn o sanción progresiva.',
+                        importance: 'critical',
+                        warning: 'NO AVISAR DE TUS AUSENCIAS = ABSENTISMO LABORAL. Primera vez advertencia, reincidencia = warn o despido.'
+                    }
+                ]
+            },
+            {
+                id: 'rangos',
+                title: 'Sistema de Rangos y Progresión',
+                icon: 'trending-up',
+                color: 'bg-purple-500',
+                items: [
+                    {
+                        title: 'Ingreso como "En Pruebas"',
+                        description: 'El ingreso se realiza en el rango <strong>En pruebas</strong> tras superar la entrevista. Es tu periodo para demostrar compromiso y profesionalidad.',
+                        importance: 'medium',
+                        warning: 'El periodo de prueba es crítico: cualquier falta grave puede resultar en despido directo'
+                    },
+                    {
+                        title: 'Ascenso de Rango (Progresión Semanal)',
+                        description: 'Cada semana completa cumpliendo TODAS las obligaciones (6h mínimas, fichajes correctos, comportamiento adecuado, sin sanciones) subes un rango.',
+                        importance: 'high',
+                        warning: 'Si fallas en CUALQUIER obligación durante la semana, NO subes rango. La progresión requiere consistencia TOTAL.'
+                    },
+                    {
+                        title: 'Descenso de Rango (Sanción Menor)',
+                        description: 'Se aplica si hay incumplimiento de tareas, faltas o ausencias durante la semana. Conseva 1 warn dentro de tu rango actual. Causas: no cumplir horas, faltas injustificadas, ausencias sin avisar, no fichar correctamente.',
+                        importance: 'high',
+                        warning: 'Cada warn retrasa tu ascenso de rango y demuestra falta de compromiso'
+                    },
+                    {
+                        title: 'Descenso de Rango (Sanción Grave)',
+                        description: 'Si hay faltas GRAVES o REPETIDAS, bajas al rango anterior completo. Causas: comportamiento tóxico, incumplimientos reiterados, sanciones acumuladas.',
+                        importance: 'critical',
+                        warning: 'PERDER UN RANGO ES UNA SANCIÓN MUY SERIA. Vuelves al rango anterior. Próximo paso es el despido.'
+                    }
+                ]
+            },
+            {
+                id: 'comportamiento',
+                title: 'Comportamiento y Conducta',
+                icon: 'users',
+                color: 'bg-orange-500',
+                items: [
+                    {
+                        title: 'Respeto Absoluto e Innegociable',
+                        description: 'Se exige respeto ABSOLUTO hacia clientes y compañeros. Profesionalidad en todo momento. Cero tolerancia a insultos, discriminación o faltas de respeto.',
+                        importance: 'critical',
+                        warning: 'Faltas de respeto graves pueden resultar en DESPIDO INMEDIATO sin previo aviso'
+                    },
+                    {
+                        title: 'Prohibiciones de Tolerancia Cero',
+                        description: 'Queda TERMINANTEMENTE PROHIBIDO durante el servicio: agresiones físicas o verbales, comportamiento tóxico, consumo de alcohol, consumo de drogas, amenazas, acoso de cualquier tipo.',
+                        importance: 'critical',
+                        warning: '⚠️ ESTAS CONDUCTAS = DESPIDO FULMINANTE. No hay segundas oportunidades. El badulaque tiene política de TOLERANCIA CERO.'
+                    },
+                    {
+                        title: 'Política de Identificación',
+                        description: 'Los clientes que utilicen máscara DEBEN retirarla antes de recibir atención. Es política de seguridad del badulaque no negociable.',
+                        importance: 'high',
+                        warning: 'No atiendas a clientes enmascarados. Pide educadamente que se identifiquen o rechaza el servicio'
+                    },
+                    {
+                        title: 'Uso Correcto de Instalaciones',
+                        description: 'NO se permite utilizar elevadores ni puntos de tuneo como estacionamiento personal. Son zonas de TRABAJO, no de aparcamiento. Libera los espacios cuando termines.',
+                        importance: 'medium',
+                        warning: 'Bloquear zonas de trabajo afecta al equipo y puede resultar en sanción'
+                    },
+                    {
+                        title: 'Ambiente Profesional',
+                        description: 'La música, animaciones y objetos deben emplearse de manera ADECUADA y RESPETUOSA. Volumen moderado, animaciones apropiadas, sin interferir con el trabajo.',
+                        importance: 'medium',
+                        warning: 'Mantén siempre un ambiente profesional. No es tu casa, es tu lugar de trabajo'
+                    }
+                ]
+            },
+            {
+                id: 'sanciones',
+                title: 'Sistema de Sanciones',
+                icon: 'alert-circle',
+                color: 'bg-red-500',
+                items: [
+                    {
+                        title: 'Escalado de Sanciones',
+                        description: 'Los incumplimientos serán sancionados de forma PROGRESIVA: 1) Advertencia verbal/escrita (faltas leves primera vez), 2) Warn oficial (faltas repetidas o serias, causa descenso de nivel), 3) Descenso de rango (faltas graves o warns acumulados), 4) DESPIDO (faltas muy graves, comportamiento intolerable, sanciones acumuladas).',
+                        importance: 'critical',
+                        warning: '⚠️ EL SISTEMA ES PROGRESIVO PERO IMPLACABLE. Cada sanción queda registrada. Las faltas graves pueden saltar directamente al despido sin pasar por advertencias.'
+                    },
+                    {
+                        title: 'Autoridad de la Jefatura',
+                        description: 'La Jefatura se reserva el derecho de añadir, modificar o eliminar normas según lo considere necesario. Es TU RESPONSABILIDAD mantenerte actualizado revisando Discord regularmente.',
+                        importance: 'high',
+                        warning: '"No sabía que habían cambiado la norma" NO es excusa válida. Revisa los anuncios diariamente'
+                    }
+                ]
+            }
+        ];
+
+        // Icon mapping
+        const icons = {
+            'clock': '<circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>',
+            'radio': '<circle cx="12" cy="12" r="2"></circle><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"></path>',
+            'bell': '<path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path>',
+            'trending-up': '<polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline>',
+            'users': '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path>',
+            'wrench': '<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>',
+            'alert-circle': '<circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line>'
+        };
+
+        // State
+        const expandedSections = {};
+
+        // Helper functions
+        function getImportanceBadge(importance) {
+            switch(importance) {
+                case 'critical':
+                    return '<span class="bg-red-600 text-white text-xs px-2 py-1 rounded font-bold">🚨 CRÍTICO</span>';
+                case 'high':
+                    return '<span class="bg-orange-500 text-white text-xs px-2 py-1 rounded font-semibold">⚠️ MUY IMPORTANTE</span>';
+                case 'medium':
+                    return '<span class="bg-yellow-500 text-white text-xs px-2 py-1 rounded">📌 IMPORTANTE</span>';
+                default:
+                    return '';
+            }
+        }
+
+        function renderSections(filteredSections) {
+            const container = document.getElementById('sectionsContainer');
+            const noResults = document.getElementById('noResults');
+            
+            if (filteredSections.length === 0) {
+                container.innerHTML = '';
+                noResults.classList.remove('hidden');
+                return;
+            }
+            
+            noResults.classList.add('hidden');
+            
+            container.innerHTML = filteredSections.map(section => `
+                <div class="bg-slate-800 rounded-lg border border-slate-700 overflow-hidden">
+                    <button
+                        onclick="toggleSection('${section.id}')"
+                        class="w-full flex items-center justify-between p-5 hover-bg transition-colors"
+                    >
+                        <div class="flex items-center gap-3">
+                            <div class="${section.color} p-2 rounded-lg">
+                                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    ${icons[section.icon]}
+                                </svg>
+                            </div>
+                            <h2 class="text-xl font-bold">${section.title}</h2>
+                            <span class="bg-slate-700 text-slate-300 text-sm px-2 py-1 rounded">
+                                ${section.items.length}
+                            </span>
+                        </div>
+                        <svg id="chevron-${section.id}" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+
+                    <div id="content-${section.id}" class="hidden border-t border-slate-700 p-5 space-y-4">
+                        ${section.items.map(item => `
+                            <div class="bg-slate-900 rounded-lg p-5 border-2 border-slate-600 space-y-3">
+                                <div class="flex items-start justify-between gap-3 mb-2">
+                                    <h3 class="font-bold text-xl text-blue-400">
+                                        ${item.title}
+                                    </h3>
+                                    ${getImportanceBadge(item.importance)}
+                                </div>
+                                
+                                <div class="bg-slate-800 rounded-lg p-4 border-l-4 border-blue-500">
+                                    <p class="text-slate-200 leading-relaxed text-base">
+                                        ${item.description}
+                                    </p>
+                                </div>
+
+                                ${item.warning ? `
+                                    <div class="bg-gradient-to-r from-red-900/50 to-orange-900/50 rounded-lg p-4 border-l-4 border-red-500">
+                                        <div class="flex items-start gap-2">
+                                            <svg width="20" height="20" class="text-red-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                                <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path>
+                                                <line x1="12" y1="9" x2="12" y2="13"></line>
+                                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                                            </svg>
+                                            <div>
+                                                <p class="font-bold text-red-300 mb-1">ADVERTENCIA</p>
+                                                <p class="text-red-200 leading-relaxed font-semibold">
+                                                    ${item.warning}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function toggleSection(id) {
+            expandedSections[id] = !expandedSections[id];
+            const content = document.getElementById(`content-${id}`);
+            const chevron = document.getElementById(`chevron-${id}`);
+            
+            if (expandedSections[id]) {
+                content.classList.remove('hidden');
+                chevron.innerHTML = '<polyline points="6 15 12 9 18 15"></polyline>';
+            } else {
+                content.classList.add('hidden');
+                chevron.innerHTML = '<polyline points="6 9 12 15 18 9"></polyline>';
+            }
+        }
+
+        function filterSections(searchTerm) {
+            const term = searchTerm.toLowerCase();
+            return sections.map(section => ({
+                ...section,
+                items: section.items.filter(item =>
+                    item.title.toLowerCase().includes(term) ||
+                    item.description.toLowerCase().includes(term)
+                )
+            })).filter(section => section.items.length > 0);
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const searchTerm = e.target.value;
+            const filtered = filterSections(searchTerm);
+            renderSections(filtered);
+            document.getElementById('noResultsText').textContent = 
+                searchTerm ? `No se encontraron resultados para "${searchTerm}"` : 'No se encontraron resultados';
+        });
+
+        // Initial render
+        renderSections(sections);
+    </script>
+</body>
+</html>
